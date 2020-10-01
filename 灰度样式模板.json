@@ -1,0 +1,64 @@
+[
+          {
+                    "featureType": "green",
+                    "elementType": "geometry.fill",
+                    "stylers": {
+                              "color": "#ccccccff",
+                              "hue": "#cccccc"
+                    }
+          },
+          {
+                    "featureType": "water",
+                    "elementType": "all",
+                    "stylers": {
+                              "color": "#bdbdbdff",
+                              "hue": "#bdbdbd"
+                    }
+          },
+          {
+                    "featureType": "local",
+                    "elementType": "all",
+                    "stylers": {
+                              "color": "#ccccccff",
+                              "hue": "#cccccc",
+                              "visibility": "off"
+                    }
+          },
+          {
+                    "featureType": "road",
+                    "elementType": "all",
+                    "stylers": {
+                              "color": "#ccccccff",
+                              "hue": "#cccccc"
+                    }
+          },
+          {
+                    "featureType": "arterial",
+                    "elementType": "all",
+                    "stylers": {
+                              "visibility": "off"
+                    }
+          },
+          {
+                    "featureType": "land",
+                    "elementType": "all",
+                    "stylers": {
+                              "color": "#f0f0f0ff",
+                              "hue": "#f0f0f0"
+                    }
+          },
+          {
+                    "featureType": "all",
+                    "elementType": "labels",
+                    "stylers": {
+                              "visibility": "off"
+                    }
+          },
+          {
+                    "featureType": "green",
+                    "elementType": "all",
+                    "stylers": {
+                              "visibility": "on"
+                    }
+          }
+]
