@@ -20,11 +20,10 @@
   -------
     1.浏览器通过【F12】打开开发者模式
     2.在顶部选项卡选择【Network】，缩放或移动地图让新的瓦片图加载
- ![preview](https://github.com/ruantiancheng/python_spider-gets-the-grayscale-image/blob/master/IMage/network_preview.jpg)
-    <br>3.在左侧窗格【Name】里找到含“tile”字样且格式为图片格式的项，点击并在右侧窗格【Preview】里进行预览
-    <br>4.将右侧窗格的【Preview】切换至【Headers】，提取红框圈出的【Request URL】
-    
- ![image](https://github.com/ruantiancheng/python_spider-gets-the-grayscale-image/blob/master/IMage/URL.jpg)
+    3.在左侧窗格【Name】里找到含“tile”字样且格式为图片格式的项，点击并在右侧窗格【Preview】里进行预览
+    4.将右侧窗格的【Preview】切换至【Headers】，提取红框圈出的【Request URL】
+![preview](https://github.com/ruantiancheng/python_spider-gets-the-grayscale-image/blob/master/IMage/network_preview.jpg)
+![image](https://github.com/ruantiancheng/python_spider-gets-the-grayscale-image/blob/master/IMage/URL.jpg)
     其中直接获取的URL中可以发现使用‘&’符号进行分隔的四段信息&x=789&y=294&z=12&udt=20200928，包括了
     -------------
     x=789(瓦片图沿横坐标轴（经度）的编号)
