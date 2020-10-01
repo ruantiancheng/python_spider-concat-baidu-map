@@ -1,6 +1,9 @@
 # python_spider-gets-the-grayscale-image
 通过旧版百度地图编辑器获取自定义样式各精细度的瓦片地图
 ======
+效果图
+=======
+![preview](https://github.com/ruantiancheng/python_spider-gets-the-grayscale-image/blob/master/%E9%98%BF%E5%A7%86%E6%96%AF%E7%89%B9%E4%B8%B9%E6%95%88%E6%9E%9C%E5%9B%BE.png)
 基本步骤可以划分为以下3个步骤：
 --------
     1.找到未加密入口提取瓦片地图URL
