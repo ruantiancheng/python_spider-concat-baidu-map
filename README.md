@@ -24,8 +24,8 @@
     4.将右侧窗格的【Preview】切换至【Headers】，提取红框圈出的【Request URL】
 ![preview](https://github.com/ruantiancheng/python_spider-gets-the-grayscale-image/blob/master/IMage/network_preview.jpg)
 ![image](https://github.com/ruantiancheng/python_spider-gets-the-grayscale-image/blob/master/IMage/URL.jpg)
-    其中直接获取的URL中可以发现使用‘&’符号进行分隔的四段信息&x=789&y=294&z=12&udt=20200928，包括了
-    -------------
+其中直接获取的URL中可以发现使用‘&’符号进行分隔的四段信息&x=789&y=294&z=12&udt=20200928，包括了
+-------------
     x=789(瓦片图沿横坐标轴（经度）的编号)
     y=294(瓦片图沿纵坐标轴（纬度）的编号)
     z=12（地图缩放尺度，19级最大（能看清室内地图），0级最小（整个地球在一张瓦片图里），18、19级显示建筑轮廓）
