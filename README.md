@@ -20,10 +20,10 @@
   -------
     1.浏览器通过【F12】打开开发者模式<br> 
     2.在顶部选项卡选择【Network】，缩放或移动地图让新的瓦片图加载<br> 
-    https://github.com/ruantiancheng/python_spider-gets-the-grayscale-image/blob/master/IMage/network_preview.jpg
+    ![preview](https://github.com/ruantiancheng/python_spider-gets-the-grayscale-image/blob/master/IMage/network_preview.jpg)
     3.在左侧窗格【Name】里找到含“tile”字样且格式为图片格式的项，点击并在右侧窗格【Preview】里进行预览<br> 
     4.将右侧窗格的【Preview】切换至【Headers】，提取红框圈出的【Request URL】<br> 
-    https://github.com/ruantiancheng/python_spider-gets-the-grayscale-image/blob/master/IMage/URL.jpg
+    ![preview](https://github.com/ruantiancheng/python_spider-gets-the-grayscale-image/blob/master/IMage/URL.jpg)
     其中直接获取的URL中可以发现使用‘&’符号进行分隔的四段信息&x=789&y=294&z=12&udt=20200928，包括了<br>
     x=789(瓦片图沿横坐标轴（经度）的编号)<br> 
     y=294(瓦片图沿纵坐标轴（纬度）的编号)<br> 
@@ -34,7 +34,8 @@
 -------
     1.确定瓦片地图URL变化范围<br> 
       A.将地图缩放至需要的地图精细度的前一级（如需要缩放到15级则先调整至14级）<br> 
-      B.在控制台中的上方清除已经加载的所有内容https://github.com/ruantiancheng/python_spider-gets-the-grayscale-image/blob/master/IMage/clear.jpg<br> 
+      B.在控制台中的上方清除已经加载的所有内容
+      ![preview](https://github.com/ruantiancheng/python_spider-gets-the-grayscale-image/blob/master/IMage/clear.jpg<br> )
       C.通过控制台的previewer找到所需提取的地图范围左上和右下两个顶角的URL（重点就是通过两个顶角地图的x,y属性来确定获取的地图范围）<br> 
     2.通过python的request库对于所需提取的瓦片地图进行爬取<br> 
 
