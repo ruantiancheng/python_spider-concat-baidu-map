@@ -36,8 +36,8 @@
     1.确定瓦片地图URL变化范围
       A.将地图缩放至需要的地图精细度的前一级（如需要缩放到15级则先调整至14级）
       B.在控制台中的上方清除已经加载的所有内容
-![image](https://github.com/ruantiancheng/python_spider-gets-the-grayscale-image/blob/master/IMage/clear.jpg)
       C.通过控制台的previewer找到所需提取的地图范围左上和右下两个顶角的URL（重点就是通过两个顶角地图的x,y属性来确定获取的地图范围）
+![image](https://github.com/ruantiancheng/python_spider-gets-the-grayscale-image/blob/master/IMage/clear.jpg)
     2.通过python的request库对于所需提取的瓦片地图进行爬取
     见py文件，调用只需要修改主函数传参即可
  ![image](https://github.com/ruantiancheng/python_spider-gets-the-grayscale-image/blob/master/IMage/%E4%BC%A0%E5%8F%82.jpg)
